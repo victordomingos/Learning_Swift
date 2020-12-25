@@ -8,7 +8,7 @@
 import Foundation
 
 // this reproduces the data structure in the JSON file
-struct Location {
+struct Location: Decodable, Identifiable {
     let id: Int
     let name: String
     let country: String

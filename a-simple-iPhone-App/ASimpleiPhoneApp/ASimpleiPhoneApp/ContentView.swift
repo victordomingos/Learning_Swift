@@ -36,7 +36,7 @@ struct ContentView: View {
             Text(location.more)
                 .padding(.horizontal)
         }
-        .navigationTitle("Discover")
+        .navigationTitle("Descobrir")
     }  
 }
 

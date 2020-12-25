@@ -15,6 +15,9 @@
 		574829862593E0FB0086B428 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 574829842593E0FA0086B428 /* tips.json */; };
 		574829892593F30F0086B428 /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574829882593F30F0086B428 /* location.swift */; };
 		5748298C2593FA200086B428 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748298B2593FA200086B428 /* Locations.swift */; };
+		5748298F2596A2FE0086B428 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748298E2596A2FE0086B428 /* WorldView.swift */; };
+		574829922596ACDC0086B428 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574829912596ACDC0086B428 /* Tip.swift */; };
+		574829952596ADF70086B428 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574829942596ADF70086B428 /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		574829842593E0FA0086B428 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		574829882593F30F0086B428 /* location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
 		5748298B2593FA200086B428 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		5748298E2596A2FE0086B428 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		574829912596ACDC0086B428 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		574829942596ADF70086B428 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				574829712593C13B0086B428 /* ASimpleiPhoneAppApp.swift */,
+				574829912596ACDC0086B428 /* Tip.swift */,
+				574829942596ADF70086B428 /* TipsView.swift */,
+				5748298E2596A2FE0086B428 /* WorldView.swift */,
 				574829882593F30F0086B428 /* location.swift */,
 				5748298B2593FA200086B428 /* Locations.swift */,
 				574829732593C13B0086B428 /* ContentView.swift */,
@@ -155,6 +164,9 @@
 			files = (
 				574829892593F30F0086B428 /* location.swift in Sources */,
 				574829742593C13B0086B428 /* ContentView.swift in Sources */,
+				5748298F2596A2FE0086B428 /* WorldView.swift in Sources */,
+				574829922596ACDC0086B428 /* Tip.swift in Sources */,
+				574829952596ADF70086B428 /* TipsView.swift in Sources */,
 				5748298C2593FA200086B428 /* Locations.swift in Sources */,
 				574829722593C13B0086B428 /* ASimpleiPhoneAppApp.swift in Sources */,
 			);
